@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Reals</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="style/styles.css" />
+		<link rel="stylesheet" href="style/iview.css" />
+		<link rel="stylesheet" href="style/popin/style.css" />
+		<script src="script/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="script/jquery.fullscreen.js"></script>
+		<script type="text/javascript" src="popin/script/raphael-min.js"></script>
+
+		<script src="script/iview.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#iview').iView({
+					pauseTime: 11000,
+					directionNav: false,
+					controlNav: true,
+					tooltipY: -15
+				});
+			});
+		</script>
+
+	</head>
+
+	<body>
+<div id="cont">
+	<div class="container">
+		<div id="iview">
+			<div data-iview:image="popin/photos/r-wan.jpg" class="a" data-iview:transition="slice-top-fade,slice-right-fade">
+				<div class="iview-caption caption1" data-x="80" data-y="200">R.Wan<sup>&trade;</sup></div>
+				<div class="iview-caption" data-x="80" data-y="275" data-transition="wipeRight">Site Officiel du chanteur créé pour la sortie de l'album "Peau Rouge" - Création du morphing vidéo</div>
+				<div class="iview-caption" data-x="254" data-y="320" data-transition="wipeLeft"><i>Fait avec amour et beaucoup de code</i><a href="http://r-wan.fr/"> [Site de Rwan]</a></div>
+			</div>
+
+			<div data-iview:image="popin/photos/LP.jpg" class="b" data-iview:transition="zigzag-drop-top,zigzag-drop-bottom">
+				<div class="iview-caption caption5" data-x="60" data-y="280" data-transition="wipeDown">Site L'Oréal Professionnel. Réalisé sous Drupal</div>
+				<div class="iview-caption caption6" data-x="300" data-y="350" data-transition="wipeUp"><a href="http://lorealprofessionnel.fr/">[Site de L'Oréal Professionnel]</a></div>
+			</div>
+
+			<!--<div data-iview:image="popin/photos/video.jpg" data-iview:type="video" data-iview:transition="strip-right-fade,strip-left-fade">
+				<iframe src="http://player.vimeo.com/video/11475955?byline=1&amp;portrait=0" width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<div class="iview-caption caption2" data-x="450" data-y="340" data-transition="wipeRight">Video</div>
+				<div class="iview-caption caption3" data-x="600" data-y="345" data-transition="wipeLeft">Support</div>
+			</div>-->
+
+			<div data-iview:image="popin/photos/bio.jpg">
+				<div class="iview-caption caption4" data-x="50" data-y="80" data-width="312" data-transition="fade">Biotherm :</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="135" data-transition="wipeLeft" data-easing="easeInOutElastic">Site de cosmétique</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="172" data-transition="wipeLeft" data-easing="easeInOutElastic">Site gérer par Content Manager (CMS de Microsoft pour L'Oréal)</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="209" data-transition="wipeLeft" data-easing="easeInOutElastic">Gestion des localisations (traductions) via "Site Manager"</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="246" data-transition="wipeLeft" data-easing="easeInOutElastic">Je me suis adapté pour chaque langue (les tailles d'éléments varients selon chaque langage</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="283" data-transition="wipeLeft" data-easing="easeInOutElastic">Adapté même à IE6 : j'étais aussi chargé de la compatibilité entre navigateurs <a href="http://www.biotherm.it/">[Site de Biotherm]</a></div>
+			</div>
+
+			<div data-iview:image="popin/photos/bodyshop.jpg">
+				<div class="iview-caption caption7" data-x="0" data-y="0" data-width="180" data-height="480" data-transition="wipeRight"><h3>The Body Shop</h3>Encore une marque de L'Oréal<b><i>Pour ce site, j'ai dû créer des pages concours (maquette graphique, jeux etc...)</b></i>!<br><br>Même principe de fonctionnement que Biotherm, fonctionne avec le CMS de L'Oréal créé par Microsoft<br><br>Ce site fait partie des compatibilités qui m'étaient demandées.</div>
+			</div>
+
+			<div data-iview:image="popin/photos/kesiena.jpg">
+				<div class="iview-caption caption5" data-x="60" data-y="150" data-transition="wipeLeft">Site Officiel de Kesiena</div>
+				<div class="iview-caption caption6" data-x="160" data-y="230" data-transition="wipeRight">Site réalisé avec Bootstrap pour un artisan à vélo à Paris <a href="http://www.lecycloplombier.fr/">[Site du Cyclo Plomber]</a></div>
+			</div>
+
+			<div data-iview:image="popin/photos/r&g.jpg">
+				<div class="iview-caption caption4" data-x="50" data-y="80" data-width="312" data-transition="fade">Roger&Gallet</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="135" data-transition="wipeLeft" data-easing="easeInOutElastic">Intégration de A à Z à partir du model "Plug&Shop"</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="172" data-transition="wipeLeft" data-easing="easeInOutElastic">Solution créée par l'entreprise Datawords</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="209" data-transition="wipeLeft" data-easing="easeInOutElastic">Pour des sites e-commerce</div>
+				<!-- <div class="iview-caption blackcaption" data-x="50" data-y="246" data-transition="wipeLeft" data-easing="easeInOutElastic">Freely Positionable and Stylable Captions</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="283" data-transition="wipeLeft" data-easing="easeInOutElastic">Cross Browser Compatibility!</div> -->
+			</div>
+
+			<div data-iview:image="popin/photos/stenskills.jpg" class="b" data-iview:transition="zigzag-drop-top,zigzag-drop-bottom">
+				<div class="iview-caption caption5" data-x="60" data-y="280" data-transition="wipeDown">Site responsive dédié au Stencil ou "pochoir" réalisé avec Bootstrap</div>
+				<div class="iview-caption caption6" data-x="300" data-y="350" data-transition="wipeUp"><a href="http://stenskills.brainsnotdead.com/">[Site Stenskills]</a></div>
+			</div>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="background-image">
+	
+</div>
+		
+		
+	</body>
+</html>
