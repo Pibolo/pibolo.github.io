@@ -22,11 +22,18 @@ docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e GIT_COMMIT=master --name mon_cv
 
 - GIT_COMMIT=master, the container will checkout to master (or any other branch except dev) and pull, if your production branch is another name change this parameter (ex: GIT_COMMIT=production)
 
+
 ## Mise en production
 
 ```
 docker rm -f mon_cv
 docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e GIT_COMMIT=master --name mon_cv sraleik/mon_cv
+```
+
+## Get inside the container
+
+```
+docker exec -it mon_cv /bin/bash
 ```
 
 ## Rebuild the docker image
