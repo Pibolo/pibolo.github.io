@@ -4,6 +4,7 @@
 
 FROM       sraleik/x64-apache:trusty
 
+RUN rm -rf /app
 ADD . /app
 ADD run.sh /run.sh
 
