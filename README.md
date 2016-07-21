@@ -30,6 +30,15 @@ docker rm -f mon_cv
 docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e GIT_COMMIT=master --name mon_cv sraleik/mon_cv
 ```
 
+No git pull necessary. The container will take care of that
+
+
+## Docker logs, to watch what's going on inside the container
+
+```
+docker logs -f mon_cv
+```
+
 ## Get inside the container
 
 ```
