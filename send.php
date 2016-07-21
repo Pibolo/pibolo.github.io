@@ -32,7 +32,7 @@
 					 */
 
 					// Adresse de réception des messages
-					$sendto = '***********************';
+					$sendto = 'jeremy.alluin@gmail.com';
 					// Sujet du message
 					$subject = 'Le sujet du Mail';
 					// Message Titre lors d'une erreur de saisie
