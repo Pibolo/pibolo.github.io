@@ -19,3 +19,12 @@ docker run -d -p 1111:80 -e ALLOW_OVERRIDE=true -e GIT_COMMIT=dev -v (pwd):/app 
 ```
 docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e GIT_COMMIT=master --name mon_cv sraleik/mon_cv
 ```
+
+## Rebuild the docker image
+
+before rebuilding make sur to have your repository clean, no pending modification
+
+```
+docker build -t pibolo/mon_cv .
+```
+- -t pour tag
