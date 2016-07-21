@@ -12,7 +12,7 @@ docker run -d -p 1111:80 -e ALLOW_OVERRIDE=true -e GIT_COMMIT=dev -v (pwd):/app 
 - the website will be accessible here localhost:1111
 - ALLOW_OVERRIDE allow url rewritting, optional
 - GIT_COMMIT=dev launch the docker in developpment mode
-- -v (pwd):/app link the docker folder /app to your code on your host machine. So you can modify your code from outside the container
+- -v (pwd):/app link the docker folder /app to your code on your host machine. So you can modify your code from outside the container `warning`: (pwd) will only work on fish and if your in this project folder. If your not you can put an absolute path instead
 
 ## Launch in production
 
