@@ -41,6 +41,12 @@ docker exec -it mon_cv /bin/bash
 before rebuilding make sur to have your repository clean, no pending modification
 
 ```
-docker build -t pibolo/mon_cv .
+docker build -t sraleik/mon_cv .
 ```
 - -t pour tag
+
+## Get last version of docker image
+
+```
+docker pull sraleik/mon_cv
+```
