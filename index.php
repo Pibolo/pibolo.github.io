@@ -112,7 +112,7 @@
 						</ul>
 				</div>
 			</div>
-			<!--
+			
 			<div class="contact">
 				<h1>Contact</h1>  
 				<?php
@@ -126,7 +126,7 @@
 				<span>*champs  obligatoires</span>
 				</div>
 			</div>
-			-->
+			
 			
 		</div>
 		<script type="text/javascript" src="popin/script/raphael-min.js"></script>
