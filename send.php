@@ -36,7 +36,7 @@
 					# Make the call to the client.
 					$result = $mgClient->sendMessage($domain, array(
 						'from'    => $_POST["name"] . '<'. $_POST["email"] .'>',
-						'to'      => 'Nicolas Rotier <nicolas.rotier@gmail.com>',
+						'to'      => '<' . getenv('MAIL_TO') . '>',
 						'subject' => "Pibolo CV",
 						'text'    => $_POST["message"]
 						));
