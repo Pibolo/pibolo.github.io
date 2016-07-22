@@ -31,14 +31,13 @@
 					use Mailgun\Mailgun;
 
 					# Instantiate the client.
-					$mgClient = new Mailgun($_ENV["MAILGUN_API_KEY"]);
-					$domain = $_ENV["MAIL_DOMAIN"];
-
+					$mgClient = new Mailgun(getenv('MAILGUN_API_KEY'));
+					$domain = getenv('MAIL_DOMAIN');
 					# Make the call to the client.
 					$result = $mgClient->sendMessage($domain, array(
-						'from'    => 'Pibolo Cv <mailgun@'. $domain .'>',
+						'from'    => $_POST["name"] . '<'. $_POST["email"] .'>',
 						'to'      => 'Nicolas Rotier <nicolas.rotier@gmail.com>',
-						'subject' => "Votre cv m'interesse",
+						'subject' => "Pibolo CV",
 						'text'    => $_POST["message"]
 						));
 				?>
