@@ -5,7 +5,7 @@
 launch this at the root of this project :
 
 ```
-docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -v (pwd):/app -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=dev --name mon_cv sraleik/mon_cv:latest
+docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -v (pwd):/app -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=master --name mon_cv sraleik/mon_cv:latest
 ```
 
 - -d for deamonize, launch the docker in the background
