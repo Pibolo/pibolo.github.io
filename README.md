@@ -27,15 +27,17 @@ docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e GIT_COMMIT=master --name mon_cv
 
 ```
 docker rm -f mon_cv
-docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e GIT_COMMIT=master --name mon_cv sraleik/mon_cv
+docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=master --name mon_cv sraleik/mon_cv:latest
 ```
 
 No git pull necessary. The container will take care of that
 
 ## Recette
 
+- créer une branch recette
+
 ```
-docker run -d -p 1111:80 -e ALLOW_OVERRIDE=true -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=mailgun --name mon_cv_recette sraleik/mon_cv:test
+docker run -d -p 1111:80 -e ALLOW_OVERRIDE=true -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=recette --name mon_cv_recette sraleik/mon_cv:latest
 ```
 
 pour l'instant le code est sur la branch mailgun je te laisse tester on mergera après
@@ -61,6 +63,12 @@ before rebuilding make sur to have your repository clean, no pending modificatio
 docker build -t sraleik/mon_cv .
 ```
 - -t pour tag
+
+Sans cache :
+
+```
+docker build --no-cache -t sraleik/mon_cv .
+```
 
 ## Get last version of docker image
 
