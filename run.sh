@@ -4,9 +4,9 @@
 cd /app
 if [ ${GIT_COMMIT} != 'dev' ]
 then
-    git pull \
+    git pull origin $GIT_COMMIT \
     && git checkout $GIT_COMMIT
-    php composer.phar update
+    #php composer.phar update virer car pas bien en root
 fi
 
 if [ "$ALLOW_OVERRIDE" = "**False**" ]; then
