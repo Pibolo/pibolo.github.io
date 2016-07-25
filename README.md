@@ -5,7 +5,7 @@
 launch this at the root of this project :
 
 ```
-docker run -d -p 1111:80 -e ALLOW_OVERRIDE=true -e GIT_COMMIT=dev -v (pwd):/app --name mon_cv sraleik/mon_cv
+docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -v (pwd):/app -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=dev --name mon_cv sraleik/mon_cv:latest
 ```
 
 - -d for deamonize, launch the docker in the background
@@ -17,7 +17,7 @@ docker run -d -p 1111:80 -e ALLOW_OVERRIDE=true -e GIT_COMMIT=dev -v (pwd):/app 
 ## Launch in production
 
 ```
-docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e GIT_COMMIT=master --name mon_cv sraleik/mon_cv
+docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=master --name mon_cv sraleik/mon_cv:latest
 ```
 
 - GIT_COMMIT=master, the container will checkout to master (or any other branch except dev) and pull, if your production branch is another name change this parameter (ex: GIT_COMMIT=production)
