@@ -32,6 +32,14 @@ docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e GIT_COMMIT=master --name mon_cv
 
 No git pull necessary. The container will take care of that
 
+## Recette
+
+```
+docker run -d -p 1111:80 -e ALLOW_OVERRIDE=true -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=mailgun --name mon_cv_recette sraleik/mon_cv:test
+```
+
+pour l'instant le code est sur la branch mailgun je te laisse tester on mergera après
+pareille pour le docker, c'est sur docker sraleik/mon_cv:test pour casser la prod
 
 ## Docker logs, to watch what's going on inside the container
 
