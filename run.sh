@@ -4,16 +4,16 @@
 cd /app
 if [ ${GIT_COMMIT} != 'dev' ]
 then
-    git pull \
+    git pull origin $GIT_COMMIT \
     && git checkout $GIT_COMMIT
     php composer.phar update
 fi
 
-if [ "$ALLOW_OVERRIDE" = "**False**" ]; then
-    unset ALLOW_OVERRIDE
-else
+if [ "$ALLOW_OVERRIDE" = "true" ]; then
     sed -i "s/AllowOverride None/AllowOverride All/g" /etc/apache2/apache2.conf
     a2enmod rewrite
+else
+    unset ALLOW_OVERRIDE
 fi
 
 source /etc/apache2/envvars
