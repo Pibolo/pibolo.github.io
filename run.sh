@@ -6,7 +6,7 @@ if [ ${GIT_COMMIT} != 'dev' ]
 then
     git pull \
     && git checkout $GIT_COMMIT
-    php composer.phar install
+    php composer.phar update
 fi
 
 if [ "$ALLOW_OVERRIDE" = "**False**" ]; then
