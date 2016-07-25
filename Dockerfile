@@ -5,13 +5,9 @@
 FROM       sraleik/x64-apache:trusty
 
 RUN rm -rf /app
-WORKDIR /
-RUN git clone https://github.com/Pibolo/pibolo.github.io.git app
+
+ADD . /app
 ADD run.sh /run.sh
-
-WORKDIR /app
-
-RUN php composer.phar install --no-interaction
 
 EXPOSE 80
 
