@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="styles/styles.min.css">
+	<link rel="stylesheet" type="text/css" href="/styles/css/styles.min.css">
 </head>
 <body>
 	<h1>Salut le monde trop cool !</h1>
