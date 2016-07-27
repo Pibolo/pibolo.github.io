@@ -5,9 +5,9 @@ var connect = require('gulp-connect-php');
 
 
 gulp.task('less', function() {
-  return gulp.src('styles/less/styles.less')
+  return gulp.src('assets/less/styles.less')
     .pipe(less())
-    .pipe(gulp.dest('styles/css/'))
+    .pipe(gulp.dest('assets/css/'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -15,7 +15,7 @@ gulp.task('less', function() {
 
 
 gulp.task('watch',['browserSync', 'less'], function(){
-  gulp.watch('styles/less/*.less', ['less']);
+  gulp.watch('assets/less/*.less', ['less']);
 });
 
 gulp.task('browserSync', function(){
