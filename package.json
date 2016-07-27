@@ -1,0 +1,22 @@
+{
+  "name": "cv",
+  "version": "1.0.1",
+  "description": "nouveau site cv",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pibolo/pibolo.github.io.git"
+  },
+  "author": "Jérémy Alluin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pibolo/pibolo.github.io/issues"
+  },
+  "homepage": "https://github.com/Pibolo/pibolo.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
