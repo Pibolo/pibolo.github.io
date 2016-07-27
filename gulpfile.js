@@ -16,6 +16,7 @@ gulp.task('less', function() {
 
 gulp.task('watch',['browserSync', 'less'], function(){
   gulp.watch('assets/less/*.less', ['less']);
+  gulp.watch('*.php').on('change', browserSync.reload);
 });
 
 gulp.task('browserSync', function(){
@@ -27,7 +28,7 @@ gulp.task('browserSync', function(){
   // })
   connect.server({}, function (){
     browserSync({
-      proxy: '127.0.0.1'
+      proxy: 'localhost'
     })
   })
 });
