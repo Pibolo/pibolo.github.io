@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Pibolo/pibolo.github.io#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-connect-php": "0.0.7"
+    "gulp-connect-php": "0.0.7",
+    "gulp-less": "^3.1.0"
   }
 }
