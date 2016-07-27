@@ -75,3 +75,11 @@ docker build --no-cache -t sraleik/mon_cv .
 ```
 docker pull sraleik/mon_cv
 ```
+
+## Launch gulp task
+
+In Development mode, launch Gulp command to watch changes whith BrowserSync. Launch command :
+
+```
+gulp watch
+```
