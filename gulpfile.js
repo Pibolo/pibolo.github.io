@@ -4,12 +4,6 @@ var browserSync = require('browser-sync');
 var connect = require('gulp-connect-php');
 
 
-gulp.task('sass1', function() {
-  return gulp.src('assets/sass/*.sass')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('assets/css'))
-});
-
 gulp.task('sass', function () {
   return gulp.src('assets/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
