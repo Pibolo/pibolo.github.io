@@ -4,17 +4,18 @@ var browserSync = require('browser-sync');
 var connect = require('gulp-connect-php');
 
 
-gulp.task('less', function () {
+gulp.task('less', function() {
   return gulp.src('assets/less/**/*.less')
-    .pipe(less().on('error', less.logError))
-    .pipe(gulp.dest('assets/css'))
+    .pipe(less())
+    .pipe(gulp.dest('assets/css/'))
     .pipe(browserSync.reload({
       stream: true
-    }));
+    }))
 });
 
+
 gulp.task('watch',['browserSync', 'less'], function(){
-  gulp.watch('./assets/less/**/*.less', ['less']);
+  gulp.watch('assets/less/**/*.less', ['less']);
   gulp.watch('*.php').on('change', browserSync.reload);
 });
 
@@ -31,5 +32,3 @@ gulp.task('browserSync', function(){
     })
   })
 });
-
-gulp.task('default', ['less']);
