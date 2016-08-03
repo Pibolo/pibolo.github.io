@@ -1,9 +1,9 @@
-//Strict Mode 
+//Strict Mode
 (function($) {
   "use strict";
 
 //Run on Document Ready
-$(document).ready(function(){  
+$(document).ready(function(){
 
   //Smooth scrool
   $("html").niceScroll({styler:"fb",cursorcolor:"#000"});
@@ -38,7 +38,7 @@ $(document).ready(function(){
   //Bootstrap Scroll Spy
   $('[data-spy="scroll"]').each(function () {
     var $spy = $(this).scrollspy('refresh');
-  });  
+  });
 
   //Bxslider -see options at http://bxslider.com/
   $('.portfolio-itens').bxSlider({
@@ -59,7 +59,7 @@ $(document).ready(function(){
       nextText: '<i class="fa fa-chevron-right"></i>'
   });
 
-  
+
   //Nivo Lightbox
   $('a.nivobox').nivoLightbox({ effect: 'fade' });
 
@@ -67,7 +67,7 @@ $(document).ready(function(){
   var portfolioItem = $('.portfolio-item');
   portfolioItem.on('mouseenter', function () {
     $(this).find('.hover-bg-wrapper').fadeIn(200);
-    $(this).find('.hover').show();  
+    $(this).find('.hover').show();
     $(this).find('p').addClass('animated').addClass('fadeInUp');
   });
 
@@ -82,7 +82,7 @@ $(document).ready(function(){
     submitHandler: function(form) {
       $.ajax({
         type: "POST",
-        url: "php/contact-form.php",
+        url: "send.php",
         data: {
           "name": $("#contactForm #name").val(),
           "email": $("#contactForm #email").val(),
@@ -101,8 +101,8 @@ $(document).ready(function(){
               .blur()
               .closest(".control-group")
               .removeClass("success")
-              .removeClass("error");              
-            
+              .removeClass("error");
+
           } else {
             $('#contactWait').hide();
             $("#contactError").fadeIn(300);
@@ -119,13 +119,13 @@ $(document).ready(function(){
   //Modal for Contact Form
   $('.modal-wrap').on('click', function () {
     $('.modal-wrap').fadeOut(300);
-  });      
+  });
 
   //Background Height fix for vertical progress
   $( ".full-height" ).each(function() {
     var $stretch = $(this);
     $stretch.css({ height: $stretch.closest('.line').find('.content-wrap').height() });
-  }); 
+  });
 
 });
 
@@ -143,20 +143,20 @@ $(window).load(function(){
   $('#content-body').addClass('fadeInUp');
 
   //Background Height fix for vertical progress
-  setTimeout(function () {    
+  setTimeout(function () {
       $( ".full-height" ).each(function() {
         var $stretch = $(this);
         $stretch.css({ height: $stretch.closest('.line').find('.content-wrap').outerHeight() });
-      });  
+      });
     }, 300
   );
-  
+
   //Background Height fix for vertical progress on window resize
-  $(window).resize(function(){ 
+  $(window).resize(function(){
      $( ".full-height" ).each(function() {
       var $stretch = $(this);
       $stretch.css({ height: $stretch.closest('.line').find('.content-wrap').outerHeight() });
-    }); 
+    });
   });
 });
 })(jQuery);
