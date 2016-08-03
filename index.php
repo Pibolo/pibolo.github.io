@@ -723,7 +723,7 @@
                   <h3 class="section-item-title-1">Send me a message</h3>
                   <div class="row">
                     <div class="col-md-8 contact-form-wrapper">
-                      <form action="send.php" id="contactForm" method="post" class="form" role="form">
+                      <form action="./send.php" id="contactForm" method="post" class="form" role="form">
                         <div class="form-group">
                           <input class="form-control required" id="name" name="name" placeholder="Name" type="text" required />
                         </div>
@@ -734,12 +734,13 @@
                           <input class="form-control required" id="subject" type="text" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="form-group">
-                          <textarea class="form-control required" id="message" name="message" placeholder="Message" rows="5" required></textarea>
+                          <textarea class="form-control required" for="message" id="message" name="message" placeholder="Message" rows="5" required></textarea>
                         </div>
                         <div class="form-group">
                           <input type="submit" class="btn btn-default form-send" value="Send!">
                         </div>  
                       </form>
+
                     </div>
                     <div class="col-md-4 contact-infos">
                       <h4 class="contact-subtitle-1">Address</h4>
