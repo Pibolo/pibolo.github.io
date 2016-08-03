@@ -78,43 +78,43 @@ $(document).ready(function(){
   });
 
   //Contact Form Validator and Ajax Sender
-  $("#contactForm").validate({
-    submitHandler: function(form) {
-      $.ajax({
-        type: "POST",
-        url: "send.php",
-        data: {
-          "name": $("#contactForm #name").val(),
-          "email": $("#contactForm #email").val(),
-          "subject": $("#contactForm #subject").val(),
-          "message": $("#contactForm #message").val()
-        },
-        dataType: "json",
-        success: function (data) {
-          if (data.response == "success") {
-            $('#contactWait').hide();
-            $("#contactSuccess").fadeIn(300);
-            $("#contactError").addClass("hidden");
+  // $("#contactForm").validate({
+  //   submitHandler: function(form) {
+  //     $.ajax({
+  //       type: "POST",
+  //       url: "send.php",
+  //       data: {
+  //         "name": $("#contactForm #name").val(),
+  //         "email": $("#contactForm #email").val(),
+  //         "subject": $("#contactForm #subject").val(),
+  //         "message": $("#contactForm #message").val()
+  //       },
+  //       dataType: "json",
+  //       success: function (data) {
+  //         if (data.response == "success") {
+  //           $('#contactWait').hide();
+  //           $("#contactSuccess").fadeIn(300);
+  //           $("#contactError").addClass("hidden");
 
-            $("#contactForm #name, #contactForm #email, #contactForm #subject, #contactForm #message")
-              .val("")
-              .blur()
-              .closest(".control-group")
-              .removeClass("success")
-              .removeClass("error");
+  //           $("#contactForm #name, #contactForm #email, #contactForm #subject, #contactForm #message")
+  //             .val("")
+  //             .blur()
+  //             .closest(".control-group")
+  //             .removeClass("success")
+  //             .removeClass("error");
 
-          } else {
-            $('#contactWait').hide();
-            $("#contactError").fadeIn(300);
-            $("#contactSuccess").addClass("hidden");
-          }
-        },
-        beforeSend: function() {
-          $('#contactWait').fadeIn(200);
-        }
-      });
-    }
-  });
+  //         } else {
+  //           $('#contactWait').hide();
+  //           $("#contactError").fadeIn(300);
+  //           $("#contactSuccess").addClass("hidden");
+  //         }
+  //       },
+  //       beforeSend: function() {
+  //         $('#contactWait').fadeIn(200);
+  //       }
+  //     });
+  //   }
+  // });
 
   //Modal for Contact Form
   $('.modal-wrap').on('click', function () {
