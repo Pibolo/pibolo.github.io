@@ -14,9 +14,6 @@
 					require 'vendor/autoload.php';
 					use Mailgun\Mailgun;
 
-					var_dump($_SERVER['MAIL_DOMAIN']);
-					var_dump($_ENV);
-					var_dump(getenv('MAIL_DOMAIN'));
 					# Instantiate the client.
 					$mgClient = new Mailgun(getenv('MAILGUN_API_KEY'));
 					$domain = getenv('MAIL_DOMAIN');
@@ -34,4 +31,6 @@
 
 	</body>
 </html>
-
+<?php
+	header('Location: index.php#contact');
+?>
