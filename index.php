@@ -723,7 +723,7 @@
                   <h3 class="section-item-title-1">Send me a message</h3>
                   <div class="row">
                     <div class="col-md-8 contact-form-wrapper">
-                      <form id="contactForm" method="post" class="form" role="form">
+                      <form action="send.php" id="contactForm" method="post" class="form" role="form">
                         <div class="form-group">
                           <input class="form-control required" id="name" name="name" placeholder="Name" type="text" required />
                         </div>
