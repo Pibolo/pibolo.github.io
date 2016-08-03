@@ -1,37 +1,5 @@
-/*------------------------------------------------------------------
-[Main Theme Styles]
-
-Project:	Vertica - Retina Ready Resume / CV & Portfolio
-Author:	Diego Pereira @ DotRex
-Version:	1.5
-Last change:	03/08/16 
-Primary use:	CV / Resume
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. General
-2. Tipography
-3. Page loader
-4. Header colors
-5. Side Menu
-6. Content
-7. Profile intro
-8. Vertical Timeline
-9. Section: Education and Work Experience
-10. Section: Skills
-11. Section: Portfolio
-12. Section: Contact
-13. Section: Thank you
-14. Footer
-15. Other Stuff
-16. Crossbrowser Stuff
--------------------------------------------------------------------*/
-/* ==========================================================
-! 1. General 
-========================================================== */
 .color1 {
-  color: #249991;
+  color: #d5753a;
 }
 .color2 {
   color: #3b658a;
@@ -81,7 +49,7 @@ hr {
 }
 h1,
 h2 {
-  color: #249991;
+  color: #d5753a;
   margin-top: 0;
 }
 h3 {
@@ -114,12 +82,12 @@ h3 {
   color: #fafafa;
 }
 .btn-primary {
-  background: #249991;
-  border: #249991;
+  background: #d5753a;
+  border: #d5753a;
   color: #fafafa;
 }
 .btn-primary:hover {
-  background: #138880 !important;
+  background: #c46429 !important;
   color: #fafafa;
 }
 .btn-secondary {
@@ -170,7 +138,7 @@ p {
   font-size: 36px;
   color: #444444;
   letter-spacing: -1pt;
-  border-bottom: 1px solid #249991;
+  border-bottom: 1px solid #d5753a;
   padding-bottom: 10px;
   font-weight: 200;
   margin-top: 15px;
@@ -235,7 +203,7 @@ p {
   width: 100%;
   height: 100%;
   background: #2a5479;
-  color: #249991;
+  color: #d5753a;
   position: fixed;
   top: 0;
   left: 0;
@@ -294,10 +262,10 @@ p {
   height: 8px;
   width: 20%;
   float: left;
-  background: #249991;
+  background: #d5753a;
 }
 .top-color1 {
-  background: #249991;
+  background: #d5753a;
 }
 .top-color2 {
   background: #3b658a;
@@ -498,7 +466,7 @@ p {
   -webkit-border-radius: 100%;
   width: 210px;
   height: 210px;
-  border: 5px solid #249991;
+  border: 5px solid #d5753a;
   overflow: hidden;
   margin: 0 auto;
   background: #fafafa;
@@ -536,7 +504,7 @@ p {
   background: #fafafa;
 }
 .timeline-progress {
-  background: url('../img/timeline-bg.png') repeat-x center center fixed #249991;
+  background: url('../img/timeline-bg.png') repeat-x center center fixed #d5753a;
   position: relative;
 }
 .timeline-progress:before {
@@ -659,7 +627,7 @@ p {
   list-style: none;
 }
 .progress-bar {
-  background: #249991;
+  background: #d5753a;
   width: 20%;
 }
 .progress-bar-2 {
@@ -710,7 +678,7 @@ p {
   display: none;
 }
 .portfolio-item .hover-bg {
-  background: #02776f;
+  background: #b35318;
   opacity: 0.9;
   width: 100%;
   height: 100%;
@@ -803,8 +771,8 @@ p {
 }
 input.form-control,
 textarea.form-control {
-  background: #249991;
-  border: 0px solid #35aaa2;
+  background: #d5753a;
+  border: 0px solid #e6864b;
   padding-top: -2px;
   border-radius: 5px;
   -moz-border-radius: 5px;
