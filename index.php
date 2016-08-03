@@ -787,9 +787,6 @@
     </div> 
   </div> 
 </section>
-========================================================= -->
-
-========================================================= -->
 <div class="form-result modal-wrap" id="contactSuccess">
   <div class="modal-bg"></div>
   <div class="modal-content">
@@ -812,9 +809,7 @@
   </div>
 </div>
 
-========================================================= -->
 
-========================================================= -->
 <script src="vendor/jquery-1.11.1.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 <script src="vendor/jquery.easing.min.js"></script>
