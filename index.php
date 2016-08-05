@@ -16,9 +16,8 @@
   <link href="assets/css/styles.css" rel="stylesheet">
 
 
-    <script src="vendor/html5shiv.js"></script>
-    <script src="vendor/respond.min.js"></script>
-  <![endif]-->
+  <script src="vendor/html5shiv.js"></script>
+  <script src="vendor/respond.min.js"></script>
 
   <link rel="shortcut icon" href="favicon-vertica.ico" type="image/x-icon">
   <link rel="icon" href="favicon-vertica.ico" type="image/x-icon">
