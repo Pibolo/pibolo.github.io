@@ -1,5 +1,4 @@
 #!/bin/bash
-# chown www-data:www-data /app -R
 
 if [ "$ALLOW_OVERRIDE" = "true" ]; then
     sed -i "s/AllowOverride None/AllowOverride All/g" /etc/apache2/apache2.conf
@@ -21,7 +20,8 @@ npm install
 
 if [ ${GIT_COMMIT} = 'dev' ]
 then
-    service apache2 start
+    source /etc/apache2/envvars
+    exec apache2 -D FOREGROUND &
     npm run watch
 else
     source /etc/apache2/envvars
