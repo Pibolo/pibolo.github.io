@@ -106,7 +106,7 @@
         <div class="col-md-7">
           <h1 class="intro-title1"><span class="color1 bold">Jérémy Alluin</span></h1>
           <h2 class="intro-title2">Développeur Front-end</h2>
-          <p>Je suis Jérémy, Développeur Front-end, j'ai navigué entre différents types de projets web aussi diverses que variés. De L'Oréal Professionnel à France Fermeture en passant par Rollex
+          <p>Fan de culture web et de technologie, ouvert sur tout ce qui ce fait, j'ai fait de ma passion mon métier pour devenir acteur et non plus simple (et respectable) spectateur.
         </div>
       </div>
       
@@ -361,7 +361,7 @@
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
               <div class="col-md-8 content-wrap bg1">
-                <h2 class="section-title">Skills</h2>
+                <h2 class="section-title">Compétences</h2>
               </div>
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
             </div>
@@ -371,24 +371,24 @@
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
               <div class="col-md-8 content-wrap bg1">
                 <div class="line-content">
-                  <h3 class="section-item-title-1">Professional Skills</h3>
+                  <h3 class="section-item-title-1">Professionelles</h3>
                   <ul class="skills-list">
                     <li>
                       <div class="progress">
-                        <div class="progress-bar" role="progressbar" data-percent="70%" style="width: 70%;">
-                            <span class="sr-only">70% Complete</span>
+                        <div class="progress-bar" role="progressbar" data-percent="90%" style="width: 90%;">
+                            <span class="sr-only">90% Complete</span>
                         </div>
-                        <span class="progress-type">Comunication</span>
-                        <span class="progress-completed">70%</span>
+                        <span class="progress-type">Communication</span>
+                        <span class="progress-completed">90%</span>
                       </div>
                     </li>
                     <li>
                       <div class="progress">
-                        <div class="progress-bar progress-bar-2" role="progressbar" data-percent="90%" style="width: 90%;">
-                            <span class="sr-only">90% Complete</span>
+                        <div class="progress-bar progress-bar-2" role="progressbar" data-percent="80%" style="width: 80%;">
+                            <span class="sr-only">80% Complete</span>
                         </div>
-                        <span class="progress-type">Leadership</span>
-                        <span class="progress-completed">90%</span>
+                        <span class="progress-type">Force de proposition</span>
+                        <span class="progress-completed">80%</span>
                       </div>
                     </li>
                     <li>
@@ -396,7 +396,7 @@
                         <div class="progress-bar progress-bar-3" role="progressbar" data-percent="85%" style="width: 85%;">
                             <span class="sr-only">85% Complete</span>
                         </div>
-                        <span class="progress-type">Confidence</span>
+                        <span class="progress-type">Capital sympathie</span>
                         <span class="progress-completed">85%</span>
                       </div>
                     </li>
@@ -411,7 +411,7 @@
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
               <div class="col-md-8 content-wrap bg1">
                 <div class="line-content">
-                  <h3 class="section-item-title-1">Software Skills</h3>
+                  <h3 class="section-item-title-1">Logiciels</h3>
                   <ul class="skills-list">
                     <li>
                       <div class="progress">
@@ -451,7 +451,7 @@
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
               <div class="col-md-8 content-wrap bg1">
                 <div class="line-content">
-                  <h3 class="section-item-title-1">Code Skills</h3>
+                  <h3 class="section-item-title-1">Code</h3>
                   <ul class="skills-list">
                     <li>
                       <div class="progress">
@@ -464,20 +464,29 @@
                     </li>
                     <li>
                       <div class="progress">
-                        <div class="progress-bar progress-bar-2" data-percent="60%" role="progressbar" style="width: 60%;">
-                            <span class="sr-only">60% Complete</span>
+                        <div class="progress-bar progress-bar-2" data-percent="90%" role="progressbar" style="width: 90%;">
+                            <span class="sr-only">90% Complete</span>
                         </div>
-                        <span class="progress-type">Javascript</span>
-                        <span class="progress-completed">60%</span>
+                        <span class="progress-type">LESS / SASS</span>
+                        <span class="progress-completed">90%</span>
                       </div>
                     </li>
                     <li>
                       <div class="progress">
-                        <div class="progress-bar progress-bar-3" data-percent="40%" role="progressbar" style="width: 40%;">
-                            <span class="sr-only">40% Complete</span>
+                        <div class="progress-bar progress-bar-2" data-percent="70%" role="progressbar" style="width: 70%;">
+                            <span class="sr-only">70% Complete</span>
+                        </div>
+                        <span class="progress-type">Jquery</span>
+                        <span class="progress-completed">70%</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-3" data-percent="30%" role="progressbar" style="width: 30%;">
+                            <span class="sr-only">30% Complete</span>
                         </div>
                         <span class="progress-type">PHP</span>
-                        <span class="progress-completed">40%</span>
+                        <span class="progress-completed">30%</span>
                       </div>
                     </li>
                   </ul>
