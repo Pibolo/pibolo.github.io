@@ -242,7 +242,7 @@
               <div class="col-md-8 content-wrap bg1">
                 <div class="line-content line-content-education">
                   <h3 class="section-item-title-1">Menuisier / Ebeniste</h3>
-                  <h4 class="graduation-time"><i class="fa fa-university"></i> Lycée Savina - Tréguier (22) - <span class="graduation-date">Graduation May 2013</span></h4>
+                  <h4 class="graduation-time"><i class="fa fa-university"></i> Lycée Savina - Tréguier (22) - <span class="graduation-date">Diplomé en Juin 2005</span></h4>
                   <div class="graduation-description">
                     <p>Après le collège j'ai suivie un cursus manue : la menuiserie/agencement en 2 ans, puis, l'ébenisterie en 1 an. Cette ces deux BEP/CAP m'ont permis d'acquérir une logique manuelle. Même si je n'ai pas continué, ce sont aussi ces disciplines professionnelles qui font la richesse et la diversité de mon parcours.</p>
                   </div>
@@ -315,36 +315,6 @@
               </div>
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
             </div>
-
-            <div class="line row">
-              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-work "></div>
-              <div class="col-md-8 content-wrap bg1">
-                <div class="line-content line-content-education">
-                  <h3 class="section-item-title-1">Dupstudio</h3>
-                  <h4 class="job"><i class="fa fa-flag"></i> Designer - <span class="job-date">Jan 2010 - Apr 2012</span></h4>
-                  <div class="job-description">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-            </div>
-
-            <div class="line row">
-              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-work "></div>
-              <div class="col-md-8 content-wrap bg1">
-                <div class="line-content line-content-education">
-                  <h3 class="section-item-title-1">Dotrex Co.</h3>
-                  <h4 class="job"><i class="fa fa-flag"></i> Designer - <span class="job-date">Jan 2010 - Apr 2012</span></h4>
-                  <div class="job-description">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
-            </div>
           </section>
 
           <section class="timeline skills" id="skills">
@@ -383,21 +353,21 @@
                       </div>
                     </li>
                     <li>
+                      <div class="progress" title="Doing my best!">
+                        <div class="progress-bar progress-bar-3" role="progressbar" data-percent="90%" style="width: 90%;">
+                            <span class="sr-only">90% Complete</span>
+                        </div>
+                        <span class="progress-type">Capital sympathie</span>
+                        <span class="progress-completed">90%</span>
+                      </div>
+                    </li>
+                    <li>
                       <div class="progress">
                         <div class="progress-bar progress-bar-2" role="progressbar" data-percent="80%" style="width: 80%;">
                             <span class="sr-only">80% Complete</span>
                         </div>
                         <span class="progress-type">Force de proposition</span>
                         <span class="progress-completed">80%</span>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="progress" title="Doing my best!">
-                        <div class="progress-bar progress-bar-3" role="progressbar" data-percent="85%" style="width: 85%;">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                        <span class="progress-type">Capital sympathie</span>
-                        <span class="progress-completed">85%</span>
                       </div>
                     </li>
                   </ul>
@@ -415,20 +385,20 @@
                   <ul class="skills-list">
                     <li>
                       <div class="progress">
-                        <div class="progress-bar" data-percent="85%" role="progressbar" style="width: 85%;">
-                            <span class="sr-only">85% Complete</span>
+                        <div class="progress-bar" data-percent="90%" role="progressbar" style="width: 90%;">
+                            <span class="sr-only">90% Complete</span>
                         </div>
                         <span class="progress-type">Adobe Photoshop</span>
-                        <span class="progress-completed">85%</span>
+                        <span class="progress-completed">90%</span>
                       </div>
                     </li>
                     <li>
                       <div class="progress">
-                        <div class="progress-bar progress-bar-2" data-percent="90%" role="progressbar" style="width: 90%;">
-                            <span class="sr-only">90% Complete</span>
+                        <div class="progress-bar progress-bar-2" data-percent="80%" role="progressbar" style="width: 80%;">
+                            <span class="sr-only">80% Complete</span>
                         </div>
                         <span class="progress-type">Adobe Illustrator</span>
-                        <span class="progress-completed">90%</span>
+                        <span class="progress-completed">80%</span>
                       </div>
                     </li>
                     <li>
@@ -451,7 +421,7 @@
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
               <div class="col-md-8 content-wrap bg1">
                 <div class="line-content">
-                  <h3 class="section-item-title-1">Code</h3>
+                  <h3 class="section-item-title-1">Code / Technos</h3>
                   <ul class="skills-list">
                     <li>
                       <div class="progress">
@@ -473,16 +443,34 @@
                     </li>
                     <li>
                       <div class="progress">
-                        <div class="progress-bar progress-bar-2" data-percent="70%" role="progressbar" style="width: 70%;">
-                            <span class="sr-only">70% Complete</span>
+                        <div class="progress-bar progress-bar-3" data-percent="80%" role="progressbar" style="width: 80%;">
+                            <span class="sr-only">80% Complete</span>
                         </div>
                         <span class="progress-type">Jquery</span>
-                        <span class="progress-completed">70%</span>
+                        <span class="progress-completed">80%</span>
+                      </div>
+                    </li>
+                    <li>
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-2" data-percent="80%" role="progressbar" style="width: 80%;">
+                            <span class="sr-only">30% Complete</span>
+                        </div>
+                        <span class="progress-type">GIT</span>
+                        <span class="progress-completed">80%</span>
                       </div>
                     </li>
                     <li>
                       <div class="progress">
-                        <div class="progress-bar progress-bar-3" data-percent="30%" role="progressbar" style="width: 30%;">
+                        <div class="progress-bar progress-bar-3" data-percent="30%" role="progressbar" style="width: 60%;">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                        <span class="progress-type">Docker</span>
+                        <span class="progress-completed">60%</span>
+                      </div>
+                    </li>
+                      <div class="progress">
+                        <div class="progress-bar" data-percent="30%" role="progressbar" style="width: 30%;">
                             <span class="sr-only">30% Complete</span>
                         </div>
                         <span class="progress-type">PHP</span>
@@ -510,7 +498,7 @@
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
               <div class="col-md-8 content-wrap bg1">
-                <h2 class="section-title">Interests</h2>
+                <h2 class="section-title">Enthousiasmé par</h2>
               </div>
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
             </div>
@@ -520,8 +508,8 @@
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
               <div class="col-md-8 content-wrap bg1">
                 <div class="line-content">
-                  <h3 class="section-item-title-1">Art</h3>
-                  <p>Praesent tellus ligula, tincidunt et fringilla vel, tincidunt ut dui. Nulla feugiat, lacus ac malesuada lobortis, elit nunc congue nunc, vel imperdiet lorem leo a lectus.</p>
+                  <h3 class="section-item-title-1">Street Art</h3>
+                  <p>J'ai tenu un temps un site de street art "Stenskills" soutenu par l'artiste Jeff Aérosol. Je pratique également le pochoir</p>
                 </div>
               </div>
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
@@ -532,8 +520,8 @@
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
               <div class="col-md-8 content-wrap bg1">
                 <div class="line-content">
-                  <h3 class="section-item-title-1">Games</h3>
-                  <p>Praesent tellus ligula, tincidunt et fringilla vel, tincidunt ut dui. Nulla feugiat, lacus ac malesuada lobortis, elit nunc congue nunc, vel imperdiet lorem leo a lectus.</p>
+                  <h3 class="section-item-title-1">Bricolage</h3>
+                  <p>J'utilise mon passé de menuisier pour faire des meubles en palette (ou autre) et trouver des solutions pour me faciliter la vie au quotidien.</p>
                 </div>
               </div>
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
@@ -544,8 +532,20 @@
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
               <div class="col-md-8 content-wrap bg1">
                 <div class="line-content">
-                  <h3 class="section-item-title-1">Books</h3>
-                  <p>Praesent tellus ligula, tincidunt et fringilla vel, tincidunt ut dui. Nulla feugiat, lacus ac malesuada lobortis, elit nunc congue nunc, vel imperdiet lorem leo a lectus.</p>
+                  <h3 class="section-item-title-1">Sport</h3>
+                  <p>Je vais en salle de sport et m'initie depuis 2 ans à la "slackline", ça vide l'esprit et regonfle la bonne humeur !</p>
+                </div>
+              </div>
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+            </div>
+
+            <div class="line row">
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+              <div class="col-md-8 content-wrap bg1">
+                <div class="line-content">
+                  <h3 class="section-item-title-1">bande dessinée </h3>
+                  <p>J'ai une collection de "bd" qui commence à prendre de la place. J'ai été bénévole au montage des expositions au festival de bande dessinée de Saint-Malo pendant 11 ans.</p>
                 </div>
               </div>
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
@@ -566,7 +566,7 @@
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
               <div class="col-md-8 content-wrap bg1">
-                <h2 class="section-title">Portfólio</h2>
+                <h2 class="section-title">Portfolio</h2>
               </div>
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
             </div>
@@ -576,40 +576,40 @@
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
               <div class="col-md-8 content-wrap bg1">
                 <div class="line-content">
-                  <h3 class="section-item-title-1">Some Works</h3>
+                  <h3 class="section-item-title-1">quelques travaux</h3>
                   <div class="portfolio-itens clearfix">                      
                     <div class="portfolio-item">
-                      <a href="img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href=/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
-                          <p class="portfolio-item-title"><strong>John's Rex</strong><br/> Business Card</p>
+                          <p class="portfolio-item-title"><strong>Site Officiel d'R.Wan</strong><br/> site internet</p>
                         </div>
                         <div class="hover-bg-wrapper">
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="img/portfolio-item-thumb.jpg" alt="">
+                          <img src="/assets/img/rwan.jpg" alt="">
                         </div>                        
                       </a>
                     </div>
 
                     <div class="portfolio-item">
-                      <a href="img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href=/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
-                          <p class="portfolio-item-title"><strong>John's Rex</strong><br/> Website</p>
+                          <p class="portfolio-item-title"><strong>Livinrennes</strong><br/> site internet</p>
                         </div>
                         <div class="hover-bg-wrapper">
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="img/portfolio-item-thumb.jpg" alt="">
+                          <img src="/assets/img/livinrennes.jpg" alt="">
                         </div>                        
                       </a>
                     </div>
 
                     <div class="portfolio-item">
-                      <a href="img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href=/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <p class="portfolio-item-title"><strong>Spetacular</strong><br/>Shirt Design</p>
@@ -618,13 +618,13 @@
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="img/portfolio-item-thumb.jpg" alt="">
+                          <img src="/assets/img/portfolio-item-thumb.jpg" alt="">
                         </div>                        
                       </a>
                     </div>
 
                     <div class="portfolio-item">
-                      <a href="img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href=/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <p class="portfolio-item-title"><strong>Mr. Chicken</strong><br/> Website</p>
@@ -633,13 +633,13 @@
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="img/portfolio-item-thumb.jpg" alt="">
+                          <img src="/assets/img/portfolio-item-thumb.jpg" alt="">
                         </div>                        
                       </a>
                     </div>
 
                     <div class="portfolio-item">
-                      <a href="img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href=/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <p class="portfolio-item-title"><strong>Super Lab</strong><br/> Website</p>
@@ -648,13 +648,13 @@
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="img/portfolio-item-thumb.jpg" alt="">
+                          <img src="/assets/img/portfolio-item-thumb.jpg" alt="">
                         </div>                        
                       </a>
                     </div>
 
                     <div class="portfolio-item">
-                      <a href="img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href=/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <p class="portfolio-item-title"><strong>Awesome</strong><br/> Branding</p>
@@ -663,13 +663,13 @@
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="img/portfolio-item-thumb.jpg" alt="">
+                          <img src="/assets/img/portfolio-item-thumb.jpg" alt="">
                         </div>                        
                       </a>
                     </div>
 
                     <div class="portfolio-item">
-                      <a href="img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href=/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <p class="portfolio-item-title"><strong>Petrelli's</strong><br/> Business Card</p>
@@ -678,13 +678,13 @@
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="img/portfolio-item-thumb.jpg" alt="">
+                          <img src="/assets/img/portfolio-item-thumb.jpg" alt="">
                         </div>                        
                       </a>
                     </div>
 
                     <div class="portfolio-item">
-                      <a href="img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href=/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <p class="portfolio-item-title"><strong>Guia D</strong><br/> App Design</p>
@@ -693,7 +693,7 @@
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="img/portfolio-item-thumb.jpg" alt="">
+                          <img src="/assets/img/portfolio-item-thumb.jpg" alt="">
                         </div>                        
                       </a>
                     </div>
@@ -728,7 +728,7 @@
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-mail "></div>
               <div class="col-md-8 content-wrap bg1">
                 <div class="line-content contact-content">
-                  <h3 class="section-item-title-1">Send me a message</h3>
+                  <h3 class="section-item-title-1">M'envoyer un message</h3>
                   <div class="row">
                     <div class="col-md-8 contact-form-wrapper">
                       <form action="./send.php" id="contactForm" method="post" class="form" role="form">
@@ -751,12 +751,10 @@
 
                     </div>
                     <div class="col-md-4 contact-infos">
-                      <h4 class="contact-subtitle-1">Address</h4>
-                      <p>451 Lorem Ipsum, Austin - Texas - U.S.A</p>
-                      <h4 class="contact-subtitle-1">Phone</h4>
-                      <p>+61 3 8376 6284</p>
+                      <h4 class="contact-subtitle-1">Téléphone</h4>
+                      <p>0 658 872 042</p>
                       <h4 class="contact-subtitle-1">Mail</h4>
-                      <p>john.Rex@dotrex.com</p>
+                      <p>jeremy.alluin@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -780,7 +778,7 @@
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
               <div class="col-md-8 content-wrap bg1">
                 <div class="line-content">
-                  <h3 class="thank-you">Thank You!</h3>
+                  <h3 class="thank-you">Merci !</h3>
                 </div>
               </div>
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
