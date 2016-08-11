@@ -343,20 +343,20 @@
                 <div class="line-content">
                   <h3 class="section-item-title-1">Professionelles</h3>
                   <ul class="skills-list">
-                    
+
                     <li>
-                      <div class="progress" title="Doing my best!">
-                        <div class="progress-bar progress-bar-2" role="progressbar" data-percent="95%" style="width: 95%;">
-                            <span class="sr-only">95% Complete</span>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-percent="100%" style="width: 100%;">
+                            <span class="sr-only">100% Complete</span>
                         </div>
-                        <span class="progress-type">Veille</span>
-                        <span class="progress-completed">95%</span>
+                        <span class="progress-type">Esprit d'équipe</span>
+                        <span class="progress-completed">100%</span>
                       </div>
                     </li>
 
                     <li>
                       <div class="progress">
-                        <div class="progress-bar" role="progressbar" data-percent="90%" style="width: 90%;">
+                        <div class="progress-bar progress-bar-2" role="progressbar" data-percent="90%" style="width: 90%;">
                             <span class="sr-only">90% Complete</span>
                         </div>
                         <span class="progress-type">Communication</span>
@@ -457,7 +457,7 @@
                     </li>
                     <li>
                       <div class="progress">
-                        <div class="progress-bar progress-bar-3" data-percent="80%" role="progressbar" style="width: 80%;">
+                        <div class="progress-bar" data-percent="80%" role="progressbar" style="width: 80%;">
                             <span class="sr-only">80% Complete</span>
                         </div>
                         <span class="progress-type">Jquery</span>
@@ -475,7 +475,7 @@
                     </li>
                     <li>
                       <div class="progress">
-                        <div class="progress-bar" data-percent="50%" role="progressbar" style="width: 50%;">
+                        <div class="progress-bar progress-bar-3" data-percent="50%" role="progressbar" style="width: 50%;">
                             <span class="sr-only">50% Complete</span>
                         </div>
                         <span class="progress-type">PHP</span>
@@ -484,7 +484,7 @@
                     </li>
                     <li>
                       <div class="progress">
-                        <div class="progress-bar progress-bar-3" data-percent="30%" role="progressbar" style="width: 30%;">
+                        <div class="progress-bar" data-percent="30%" role="progressbar" style="width: 30%;">
                             <span class="sr-only">30% Complete</span>
                         </div>
                         <span class="progress-type">Docker</span>
