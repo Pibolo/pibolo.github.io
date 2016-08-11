@@ -62,7 +62,7 @@
       <li><a href="#formation"><i class="fa fa-angle-right"></i> Formation</a></li>
       <li><a href="#pro"><i class="fa fa-angle-right"></i> Expérience pro</a></li>
       <li><a href="#skills"><i class="fa fa-angle-right"></i> Compétences</a></li>
-      <li><a href="#interets"><i class="fa fa-angle-right"></i> ENTHOUSIASMÉ PAR</a></li>
+      <li><a href="#interets"><i class="fa fa-angle-right"></i> Intérêts</a></li>
       <li><a href="#portfolio"><i class="fa fa-angle-right"></i> Portfolio</a></li>
       <li><a href="#contact"><i class="fa fa-angle-right"></i> Contact</a></li>
     </ul>
@@ -534,7 +534,7 @@
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
               <div class="col-md-2 timeline-progress hidden-sm hidden-xs timeline-title full-height"></div>
               <div class="col-md-8 content-wrap bg1">
-                <h2 class="section-title">Enthousiasmé par</h2>
+                <h2 class="section-title">Intérêts</h2>
               </div>
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
             </div>
@@ -616,7 +616,7 @@
                   <div class="portfolio-itens clearfix">                      
 
                     <div class="portfolio-item">
-                      <a href="/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href="http://cycloplombier.com/" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <p class="portfolio-item-title"><strong>Cycloplombier</strong><br/> one page</p>
@@ -630,7 +630,7 @@
                       </a>
                     </div>
                     <div class="portfolio-item">
-                      <a href="/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href="/assets/img/portfolio-item-zoom.jpg" title="Site de Livinrennes - Chambres d'hôtes" class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <p class="portfolio-item-title"><strong>Livinrennes</strong><br/> site wordpress responsive</p>
@@ -645,7 +645,7 @@
                     </div>
 
                     <div class="portfolio-item">
-                      <a href="/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href="/assets/img/portfolio-item-zoom.jpg" title="Site Officiel de Giffard" class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <p class="portfolio-item-title"><strong>Giffard</strong><br/>site wordpress responsive</p>
@@ -660,7 +660,7 @@
                     </div>
 
                     <div class="portfolio-item">
-                      <a href="/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href="http://www.r-wan.fr/" title="Site Officiel du chanteur Rwan - Jérémy Alluin" class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <p class="portfolio-item-title"><strong>Site Officiel d'R.Wan</strong><br/> site internet statique</p>
@@ -675,7 +675,7 @@
                     </div>
 
                     <div class="portfolio-item">
-                      <a href="/assets/img/portfolio-item-zoom.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href="http://openb-sas.com/" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <p class="portfolio-item-title"><strong>Open B</strong><br/> site wordpress</p>
