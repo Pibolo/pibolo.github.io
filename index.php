@@ -353,7 +353,7 @@
                         <span class="progress-completed">95%</span>
                       </div>
                     </li>
-                    
+
                     <li>
                       <div class="progress">
                         <div class="progress-bar" role="progressbar" data-percent="90%" style="width: 90%;">
@@ -490,6 +490,28 @@
                         <span class="progress-type">Docker</span>
                         <span class="progress-completed">30%</span>
                       </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+            </div>
+
+            <div class="line row">
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-point "></div>
+              <div class="col-md-8 content-wrap bg1">
+                <div class="line-content">
+                  <h3 class="section-item-title-1">Veille en cours</h3>
+                  <ul class="skills-list">
+                    <li>
+                        <span class="progress-type">Docker</span>
+                    </li>
+                    <li>
+                        <span class="progress-type">Raspberry</span>
+                    </li>
+                    <li>
+                        <span class="progress-type">Brunch</span>
                     </li>
                   </ul>
                 </div>
