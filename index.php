@@ -18,7 +18,6 @@
 
   <script src="vendor/html5shiv.js"></script>
   <script src="vendor/respond.min.js"></script>
-  <script src='https://www.google.com/recaptcha/api.js'></script>
 
   <link rel="shortcut icon" href="favicon-vertica.ico" type="image/x-icon">
   <link rel="icon" href="favicon-vertica.ico" type="image/x-icon">
@@ -63,7 +62,7 @@
       <li><a href="#formation"><i class="fa fa-angle-right"></i> Formation</a></li>
       <li><a href="#pro"><i class="fa fa-angle-right"></i> Expérience pro</a></li>
       <li><a href="#skills"><i class="fa fa-angle-right"></i> Compétences</a></li>
-      <li><a href="#interets"><i class="fa fa-angle-right"></i> Intérêts</a></li>
+      <li><a href="#interets"><i class="fa fa-angle-right"></i> ENTHOUSIASMÉ PAR</a></li>
       <li><a href="#portfolio"><i class="fa fa-angle-right"></i> Portfolio</a></li>
       <li><a href="#contact"><i class="fa fa-angle-right"></i> Contact</a></li>
     </ul>
@@ -344,6 +343,17 @@
                 <div class="line-content">
                   <h3 class="section-item-title-1">Professionelles</h3>
                   <ul class="skills-list">
+                    
+                    <li>
+                      <div class="progress" title="Doing my best!">
+                        <div class="progress-bar progress-bar-2" role="progressbar" data-percent="95%" style="width: 95%;">
+                            <span class="sr-only">95% Complete</span>
+                        </div>
+                        <span class="progress-type">Veille</span>
+                        <span class="progress-completed">95%</span>
+                      </div>
+                    </li>
+                    
                     <li>
                       <div class="progress">
                         <div class="progress-bar" role="progressbar" data-percent="90%" style="width: 90%;">
@@ -353,6 +363,7 @@
                         <span class="progress-completed">90%</span>
                       </div>
                     </li>
+
                     <li>
                       <div class="progress" title="Doing my best!">
                         <div class="progress-bar progress-bar-3" role="progressbar" data-percent="90%" style="width: 90%;">
@@ -362,6 +373,7 @@
                         <span class="progress-completed">90%</span>
                       </div>
                     </li>
+
                     
                   </ul>
                 </div>
@@ -463,19 +475,19 @@
                     </li>
                     <li>
                       <div class="progress">
-                        <div class="progress-bar progress-bar-3" data-percent="30%" role="progressbar" style="width: 60%;">
-                            <span class="sr-only">60% Complete</span>
+                        <div class="progress-bar" data-percent="50%" role="progressbar" style="width: 50%;">
+                            <span class="sr-only">50% Complete</span>
                         </div>
-                        <span class="progress-type">Docker</span>
-                        <span class="progress-completed">60%</span>
+                        <span class="progress-type">PHP</span>
+                        <span class="progress-completed">50%</span>
                       </div>
                     </li>
                     <li>
                       <div class="progress">
-                        <div class="progress-bar" data-percent="30%" role="progressbar" style="width: 30%;">
+                        <div class="progress-bar progress-bar-3" data-percent="30%" role="progressbar" style="width: 30%;">
                             <span class="sr-only">30% Complete</span>
                         </div>
-                        <span class="progress-type">PHP</span>
+                        <span class="progress-type">Docker</span>
                         <span class="progress-completed">30%</span>
                       </div>
                     </li>
@@ -703,7 +715,6 @@
                         <div class="form-group">
                           <textarea class="form-control required" for="message" id="message" name="message" placeholder="Message" rows="5" required></textarea>
                         </div>
-                        <div class="g-recaptcha" data-sitekey="6Lf5XicTAAAAACpEeTWmPjhdUaQkdTkwnsBU2QMR"></div>
                         <div class="form-group">
                           <input type="submit" class="btn btn-default form-send" value="Send!">
                         </div>  
@@ -712,7 +723,7 @@
                     </div>
                     <div class="col-md-4 contact-infos">
                       <h4 class="contact-subtitle-1">Téléphone</h4>
-                      <p>0 658 872 042</p>
+                      <p>06 58 87 20 42</p>
                       <h4 class="contact-subtitle-1">Mail</h4>
                       <p>jeremy.alluin@gmail.com</p>
                     </div>
