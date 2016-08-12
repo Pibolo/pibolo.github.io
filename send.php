@@ -21,10 +21,10 @@
 					$result = $mgClient->sendMessage($domain, array(
 						'from'    => $_POST["name"] . '<'. $_POST["email"] .'>',
 						'to'      => '<' . getenv('MAIL_TO') . '>',
-						'subject' => "Pibolo CV",
+						'subject' => $_POST["subject"],
 						'text'    => $_POST["message"]
 						));
-				?>
+					?>
 				</div>
 		</div>
 
@@ -32,5 +32,5 @@
 	</body>
 </html>
 <?php
-	header('Location: index.php#contact');
+	header('Location: index.php?sent=true#contact');
 ?>

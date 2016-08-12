@@ -625,7 +625,7 @@
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="/assets/img/cycloplombier.jpg" alt="">
+                          <img src="/assets/img/cycloplombier.jpg" alt="Cycloplombier">
                         </div>                        
                       </a>
                     </div>
@@ -639,7 +639,7 @@
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="/assets/img/livinrennes.jpg" alt="">
+                          <img src="/assets/img/livinrennes.jpg" alt="Chambre d'hôtes Livinrennes">
                         </div>                        
                       </a>
                     </div>
@@ -654,7 +654,7 @@
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="/assets/img/giffard.jpg" alt="">
+                          <img src="/assets/img/giffard.jpg" alt="Site Giffard">
                         </div>                        
                       </a>
                     </div>
@@ -669,13 +669,13 @@
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="/assets/img/rwan.jpg" alt="">
+                          <img src="/assets/img/rwan.jpg" alt="site internet de rwan">
                         </div>                        
                       </a>
                     </div>
 
                     <div class="portfolio-item">
-                      <a href="http://openb-sas.com/" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href="http://openb-sas.com/" title="Site wordpress réalisé pour Open B" class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <p class="portfolio-item-title"><strong>Open B</strong><br/> site wordpress</p>
@@ -684,7 +684,7 @@
                           <div class="hover-bg"></div>
                         </div>
                         <div class="portfolio-item-thumbnail">
-                          <img src="/assets/img/openb.jpg" alt="">
+                          <img src="/assets/img/openb.jpg" alt="Site OpenB">
                         </div>                        
                       </a>
                     </div>
@@ -724,7 +724,7 @@
                   <h3 class="section-item-title-1">M'envoyer un message</h3>
                   <div class="row">
                     <div class="col-md-8 contact-form-wrapper">
-                      <form action="./send.php" id="contactForm" method="post" class="form" role="form">
+                      <form action="/send.php" id="contactForm" method="post" class="form" role="form">
                         <div class="form-group">
                           <input class="form-control required" id="name" name="name" placeholder="Nom / Prénom" type="text" required />
                         </div>
@@ -738,8 +738,16 @@
                           <textarea class="form-control required" for="message" id="message" name="message" placeholder="Message" rows="5" required></textarea>
                         </div>
                         <div class="form-group">
-                          <input type="submit" class="btn btn-default form-send" value="Send!">
+                          <input type="submit" class="btn btn-default form-send" value="Envoyer!">
                         </div>  
+                        <?php 
+                          if (empty($_GET['sent'])){
+                            
+                          }else {
+                            echo "Merci pour votre message ! Je vous répondrai dès que possible.";
+                          }
+
+                         ?>
                       </form>
 
                     </div>
