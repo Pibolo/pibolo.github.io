@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Site CV de Jérémy Alluin - Développeur Front End Nantes</title>
+  <title>Jérémy Alluin - Développeur Front End Nantes</title>
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -69,7 +69,7 @@
   </nav>
 
   <div class="side-menu-buttons">
-    <a href="#" class="btn btn-side-menu"><i class="fa fa-download"></i> Télécharger mon CV</a>
+    <!-- <a href="#" class="btn btn-side-menu"><i class="fa fa-download"></i> Télécharger mon CV</a> -->
     <a href="#contact" class="btn btn-side-menu"><i class="fa fa-envelope-o"></i> Contactez moi</a>
   </div>
 </div>
@@ -89,7 +89,7 @@
       
       <div class="row">
         <div class="header-buttons col-md-10 col-md-offset-1">
-          <a href="#" class="btn btn-default btn-top-resume"><i class="fa fa-download"></i><span class="btn-hide-text">Télécharger mon CV</span></a>
+          <!-- <a href="#" class="btn btn-default btn-top-resume"><i class="fa fa-download"></i><span class="btn-hide-text">Télécharger mon CV</span></a> -->
           <a href="#contact" class="btn btn-default btn-top-message"><i class="fa fa-envelope-o"></i><span class="btn-hide-text">Contactez moi</span></a>
         </div>
       </div>
@@ -279,7 +279,7 @@
                   <h3 class="section-item-title-1">Le Phare - Nantes </h3>
                   <h4 class="job"><i class="fa fa-flag"></i> Dévelopeur Front-end - <span class="job-date">Février 2015 - Maintenant</span></h4>
                   <div class="job-description">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>Alternance de deux ans au sein de l'entreprise Le Phare en tant que développeur front end. Chargé de faire la passerelle entre les développeurs back end et le pôle graphisme. Projets Symfony, </p>
                   </div>
                 </div>
               </div>
@@ -294,7 +294,7 @@
                   <h3 class="section-item-title-1">Professeur Cyclope</h3>
                   <h4 class="job"><i class="fa fa-flag"></i> Chef de Production - <span class="job-date">Juin 2014 à Novembre 2014</span></h4>
                   <div class="job-description">
-                    <p><a href="http://www.professeurcyclope.fr/">Professeur Cyclope</a> est destiné à un public ado-adulte et publie des bandes dessinées de création originale, lisibles avec un navigateur internet.</p>
+                    <p><a href="http://www.professeurcyclope.fr/">Professeur Cyclope</a> est un magasine de bande dessinée digitale (support tablette et ordinateurs). J'étais chef de production et m'occupait de la mise en place des numéros digitaux tous les mois. Création du code pour implémenter les nouvelles bandes dessinées.</p>
                   </div>
                 </div>
               </div>
@@ -309,12 +309,35 @@
                   <h3 class="section-item-title-1">Freelance</h3>
                   <h4 class="job"><i class="fa fa-flag"></i> Intégrateur web - <span class="job-date">Septembre 2013 à Juin 2014</span></h4>
                   <div class="job-description">
-                    <p>J'ai réalisé différents sites durant cette période, vous pourrez les retrouver dans la partie <a href="#portfolio">portfolio.</a></p>
+                    <p>J'ai eu l'occasion de tester des technologies et de mettre en place des systèmes de création et de production sur des sites statiques ou avec wordpress. J'ai réalisé différents sites durant cette période vous pourrez les retrouver dans la partie <a href="#portfolio">portfolio.</a></p>
                   </div>
                 </div>
               </div>
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
             </div>
+
+            <div class="line row">
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+              <div class="col-md-2 timeline-progress hidden-sm hidden-xs full-height timeline-work "></div>
+              <div class="col-md-8 content-wrap bg1">
+                <div class="line-content line-content-education">
+                  <h3 class="section-item-title-1">Datawords development </h3>
+                  <h4 class="job"><i class="fa fa-flag"></i> Intégrateur html/css - <span class="job-date"> 2011 - 2012</span></h4>
+                  <div class="job-description">
+                    <p>Administration et Maintenance des sites du groupe L'Oréal Professionnel sous Drupal.
+                    </p>
+                    <ul class="skills-list">
+                      <li><i class="fa fa-arrow-right"></i> Gestion de template selon un model de site e-commerce (Plug and Shop)</li>
+                      <li><i class="fa fa-arrow-right"></i> Intégration Webbox (Framework créer par Miscrosoft pour L'Oréal)</li>
+                      <li><i class="fa fa-arrow-right"></i> Méthodologie de localisation de sites</li>
+                      <li><i class="fa fa-arrow-right"></i> Création de newsletter</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
+            </div>
+
           </section>
 
           <section class="timeline skills" id="skills">
@@ -740,14 +763,6 @@
                         <div class="form-group">
                           <input type="submit" class="btn btn-default form-send" value="Envoyer!">
                         </div>  
-                        <?php 
-                          if (empty($_GET['sent'])){
-                            
-                          }else {
-                            echo "Merci pour votre message ! Je vous répondrai dès que possible.";
-                          }
-
-                         ?>
                       </form>
 
                     </div>
@@ -763,7 +778,7 @@
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
             </div>
           </section>
-
+      
           <section class="timeline profile-infos">
 
             <div class="line row line-thank-you">
@@ -773,9 +788,20 @@
                 <div class="line-content">
                   <h3 class="thank-you">Merci !</h3>
                 </div>
+                <div class="popin"> 
+  <?php 
+    if (empty($_GET['sent'])){
+      
+    }else {
+      echo "<div class="."confirm col-xs-12".">"."Merci pour votre message ! Je vous répondrai dès que possible.</div>";
+    }
+
+   ?>
+</div>
               </div>
               <div class="col-md-1 bg1 timeline-space full-height hidden-sm hidden-xs"></div>
             </div>
+
           </section>
         </div>
       </div>
@@ -787,27 +813,8 @@
     </div> 
   </div> 
 </section>
-<div class="form-result modal-wrap" id="contactSuccess">
-  <div class="modal-bg"></div>
-  <div class="modal-content">
-    <h4 class="modal-title"><i class="fa fa-check-circle"></i> Success!</h4>
-    <p>Your message has been sent to us.</p>
-  </div>
-</div>
-<div class="form-result modal-wrap" id="contactError">
-  <div class="modal-bg"></div>
-  <div class="modal-content">
-    <h4 class="modal-title"><i class="fa fa-times"></i> Error</h4>
-    <p>There was an error sending your message.</p>
-  </div>
-</div>
-<div class="form-result modal-wrap" id="contactWait">
-  <div class="modal-bg"></div>
-  <div class="modal-content">  
-    <div class="modal-loader"></div> 
-    <p>Sending Message, please wait...</p>
-  </div>
-</div>
+
+
 
 
 <script src="vendor/jquery-1.11.1.min.js"></script>
