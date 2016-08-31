@@ -106,7 +106,7 @@
         <div class="col-md-7">
           <h1 class="intro-title1"><span class="color1 bold">Jérémy Alluin</span></h1>
           <h2 class="intro-title2">Développeur Front-end</h2>
-          <p>Fan de culture web et de technologie, ouvert sur tout ce qui ce fait, j'ai fait de ma passion mon métier pour devenir acteur et non plus simple (et respectable) spectateur.
+          <p>Passionné de culture web et de technologie, ouvert sur tout ce qui ce fait, j'ai fait de ma passion mon métier pour devenir acteur et non plus simple (et respectable) spectateur.
         </div>
       </div>
       
@@ -214,7 +214,7 @@
                   <h3 class="section-item-title-1">Conception Web en alternance</h3>
                   <h4 class="graduation-time"><i class="fa fa-university"></i> CESI Ouest - Nantes (44) <span class="graduation-date">Diplôme en Septembre 2016</span></h4>
                   <div class="graduation-description">
-                    <p>Durant deux ans j'ai alterné formation et entreprise (Le Phare, Nantes. Cela m'a énormément fait avancé et m'a conforté dans mon choix d'être développeur Front-end</p>
+                    <p>Durant deux ans j'ai alterné formation et entreprise (Le Phare, Nantes). Cela m'a énormément fait avancé et m'a conforté dans mon choix d'être développeur Front-end</p>
                   </div>
                 </div>
               </div>
