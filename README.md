@@ -5,7 +5,7 @@
 launch this at the root of this project :
 
 ```
-docker run -d -p 3000:3000 -e ALLOW_OVERRIDE=true -v (pwd):/app -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=dev --name mon_cv sraleik/mon_cv:latest
+docker run -d -p 3000:3000 -e ALLOW_OVERRIDE=true -v (pwd):/app -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=dev --name cv_pibolo sraleik/cv_pibolo:latest
 ```
 
 - -d for deamonize, launch the docker in the background
@@ -18,7 +18,7 @@ docker run -d -p 3000:3000 -e ALLOW_OVERRIDE=true -v (pwd):/app -e MAILGUN_API_K
 ## Launch in production
 
 ```
-docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=master --name mon_cv sraleik/mon_cv:latest
+docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=master --name cv_pibolo sraleik/cv_pibolo:latest
 ```
 
 - GIT_COMMIT=master, the container will checkout to master (or any other branch except dev) and pull, if your production branch is another name change this parameter (ex: GIT_COMMIT=production)
@@ -27,8 +27,8 @@ docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e MAILGUN_API_KEY=<key-BLABLA> -e
 ## Mise en production
 
 ```
-docker rm -f mon_cv
-docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=master --name mon_cv sraleik/mon_cv:latest
+docker rm -f cv_pibolo
+docker run -d -p 80:80 -e ALLOW_OVERRIDE=true -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=master --name cv_pibolo sraleik/cv_pibolo:latest
 ```
 
 No git pull necessary. The container will take care of that
@@ -38,22 +38,22 @@ No git pull necessary. The container will take care of that
 - créer une branch recette
 
 ```
-docker run -d -p 1111:80 -e ALLOW_OVERRIDE=true -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=recette --name mon_cv_recette sraleik/mon_cv:latest
+docker run -d -p 1111:80 -e ALLOW_OVERRIDE=true -e MAILGUN_API_KEY=<key-BLABLA> -e MAIL_DOMAIN=<sandboxBLABLA.mailgun.org> -e MAIL_TO=jeremy.alluin@gmail.com -e GIT_COMMIT=recette --name cv_pibolo_recette sraleik/cv_pibolo:latest
 ```
 
 pour l'instant le code est sur la branch mailgun je te laisse tester on mergera après
-pareille pour le docker, c'est sur docker sraleik/mon_cv:test pour casser la prod
+pareille pour le docker, c'est sur docker sraleik/cv_pibolo:test pour casser la prod
 
 ## Docker logs, to watch what's going on inside the container
 
 ```
-docker logs -f mon_cv
+docker logs -f cv_pibolo
 ```
 
 ## Get inside the container
 
 ```
-docker exec -it mon_cv /bin/bash
+docker exec -it cv_pibolo /bin/bash
 ```
 
 ## Rebuild the docker image
@@ -61,20 +61,20 @@ docker exec -it mon_cv /bin/bash
 before rebuilding make sur to have your repository clean, no pending modification
 
 ```
-docker build -t sraleik/mon_cv .
+docker build -t sraleik/cv_pibolo .
 ```
 - -t pour tag
 
 Sans cache :
 
 ```
-docker build --no-cache -t sraleik/mon_cv .
+docker build --no-cache -t sraleik/cv_pibolo .
 ```
 
 ## Get last version of docker image
 
 ```
-docker pull sraleik/mon_cv
+docker pull sraleik/cv_pibolo
 ```
 
 ## Launch gulp task
