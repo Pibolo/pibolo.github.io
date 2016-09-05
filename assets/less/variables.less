@@ -1,0 +1,58 @@
+@desktop:   ~"(min-width: 1200px)";
+@laptop:   ~"(min-width:992px)";
+@tablet:    ~"(min-width: 768px)";
+@mobile:    ~"(min-width: 240px) and (max-width: 719px)";
+
+@color1: #d5753a;
+@color2: #3b658a;
+@color3: #ce5f5f;
+@bgcolor: #fafafa;
+@textcolor: #555;
+@colorConfirm: #8EBB8E;
+
+.color1 {
+  color: @color1;
+}
+
+.color2 {
+  color: @color2;
+}
+
+.color3 {
+  color: @color3;
+}
+
+
+.font1 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.anima (@anima) {
+	-webkit-transition: all @anima ease-in-out;
+    -moz-transition: all @anima ease-in-out;
+    transition: all @anima ease-in-out;
+}
+
+.anima2 (@anima) {
+  -webkit-transition: all @anima;
+    -moz-transition: all @anima;
+    transition: all @anima;
+}
+
+
+.border-radius (@radius) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+
+.bg-cover {
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

@@ -19,10 +19,8 @@ WORKDIR /
 
 RUN git clone https://github.com/Pibolo/pibolo.github.io.git app
 
-
 WORKDIR /app
 
-RUN git checkout nico_test_gulp
 RUN php composer.phar install --no-interaction
 RUN npm install
 
