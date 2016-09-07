@@ -19,7 +19,7 @@
   <script src="vendor/html5shiv.js"></script>
   <script src="vendor/respond.min.js"></script>
 
-  <link rel="shortcut icon" href="favicon-vertica.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon-vertica.ico" type="image/x-icon">
   <link href="apple-touch-icon-144.png" rel="apple-touch-icon-precomposed" sizes="144x144">
   <link href="apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114">
