@@ -69,7 +69,7 @@
   </nav>
 
   <div class="side-menu-buttons">
-    <!-- <a href="#" class="btn btn-side-menu"><i class="fa fa-download"></i> Télécharger mon CV</a> -->
+    <a href="/pdf/cv-jeremy-alluin.pdf" class="btn btn-side-menu"><i class="fa fa-download"></i> Télécharger mon CV</a>
     <a href="#contact" class="btn btn-side-menu"><i class="fa fa-envelope-o"></i> Contactez moi</a>
   </div>
 </div>
@@ -89,7 +89,7 @@
       
       <div class="row">
         <div class="header-buttons col-md-10 col-md-offset-1">
-          <!-- <a href="#" class="btn btn-default btn-top-resume"><i class="fa fa-download"></i><span class="btn-hide-text">Télécharger mon CV</span></a> -->
+          <a href="/pdf/cv-jeremy-alluin.pdf" class="btn btn-default btn-top-resume"><i class="fa fa-download"></i><span class="btn-hide-text">Télécharger mon CV</span></a>
           <a href="#contact" class="btn btn-default btn-top-message"><i class="fa fa-envelope-o"></i><span class="btn-hide-text">Contactez moi</span></a>
         </div>
       </div>
@@ -106,7 +106,7 @@
         <div class="col-md-7">
           <h1 class="intro-title1"><span class="color1 bold">Jérémy Alluin</span></h1>
           <h2 class="intro-title2">Développeur Front-end</h2>
-          <p>Passionné de culture web et de technologie, ouvert sur tout ce qui ce fait, j'ai fait de ma passion mon métier pour devenir acteur et non plus simple (et respectable) spectateur.
+          <p>Passionné de culture web et de technologie, ouvert sur tout ce qui ce fait et curieux, j'ai fait de ma passion mon métier pour devenir acteur et non plus simple (et respectable) spectateur.
         </div>
       </div>
       
@@ -214,7 +214,7 @@
                   <h3 class="section-item-title-1">Conception Web en alternance</h3>
                   <h4 class="graduation-time"><i class="fa fa-university"></i> CESI Ouest - Nantes (44) <span class="graduation-date">Diplôme en Septembre 2016</span></h4>
                   <div class="graduation-description">
-                    <p>Durant deux ans j'ai alterné formation et entreprise (Le Phare, Nantes). Cela m'a énormément fait avancé et m'a conforté dans mon choix d'être développeur Front-end</p>
+                    <p>Durant deux ans j'ai alterné formation et entreprise (Le Phare, Nantes). Cela m'a énormément fait avancé et m'a conforté dans mon choix de devenir développeur Front-end</p>
                   </div>
                 </div>
               </div>
@@ -244,7 +244,7 @@
                   <h3 class="section-item-title-1">Menuisier / Ebeniste</h3>
                   <h4 class="graduation-time"><i class="fa fa-university"></i> Lycée Savina - Tréguier (22) - <span class="graduation-date">Diplomé en Juin 2005</span></h4>
                   <div class="graduation-description">
-                    <p>Après le collège j'ai suivie un cursus manue : la menuiserie/agencement en 2 ans, puis, l'ébenisterie en 1 an. Cette ces deux BEP/CAP m'ont permis d'acquérir une logique manuelle. Même si je n'ai pas continué, ce sont aussi ces disciplines professionnelles qui font la richesse et la diversité de mon parcours.</p>
+                    <p>Après le collège j'ai suivi un cursus manuel : la menuiserie/agencement en 2 ans, puis, l'ébenisterie en 1 an. Cette ces deux BEP/CAP m'ont permis d'acquérir une logique manuelle. Même si je n'ai pas continué, ce sont aussi ces disciplines professionnelles qui font la richesse et la diversité de mon parcours.</p>
                   </div>
                 </div>
               </div>
@@ -294,7 +294,7 @@
                   <h3 class="section-item-title-1">Professeur Cyclope</h3>
                   <h4 class="job"><i class="fa fa-flag"></i> Chef de Production - <span class="job-date">Juin 2014 à Novembre 2014</span></h4>
                   <div class="job-description">
-                    <p><a href="http://www.professeurcyclope.fr/">Professeur Cyclope</a> est un magasine de bande dessinée digitale (support tablette et ordinateurs). J'étais chef de production et m'occupait de la mise en place des numéros digitaux tous les mois. Création du code pour implémenter les nouvelles bandes dessinées.</p>
+                    <p><a href="http://www.professeurcyclope.fr/">Professeur Cyclope</a> est un magazine de bandes dessinées digitales (support tablette et ordinateurs). J'étais chef de production et m'occupais de la mise en place des numéros digitaux tous les mois. Création du code pour implémenter les nouvelles bandes dessinées.</p>
                   </div>
                 </div>
               </div>
@@ -330,7 +330,7 @@
                       <li><i class="fa fa-arrow-right"></i> Gestion de template selon un model de site e-commerce (Plug and Shop)</li>
                       <li><i class="fa fa-arrow-right"></i> Intégration Webbox (Framework créer par Miscrosoft pour L'Oréal)</li>
                       <li><i class="fa fa-arrow-right"></i> Méthodologie de localisation de sites</li>
-                      <li><i class="fa fa-arrow-right"></i> Création de newsletter</li>
+                      <li><i class="fa fa-arrow-right"></i> Création de newsletters</li>
                     </ul>
                   </div>
                 </div>
@@ -369,11 +369,11 @@
 
                     <li>
                       <div class="progress">
-                        <div class="progress-bar" role="progressbar" data-percent="100%" style="width: 100%;">
-                            <span class="sr-only">100% Complete</span>
+                        <div class="progress-bar" role="progressbar" data-percent="90%" style="width: 90%;">
+                            <span class="sr-only">90% Complete</span>
                         </div>
                         <span class="progress-type">Esprit d'équipe</span>
-                        <span class="progress-completed">100%</span>
+                        <span class="progress-completed">90%</span>
                       </div>
                     </li>
 
@@ -422,8 +422,8 @@
                     </li>
                     <li>
                       <div class="progress">
-                        <div class="progress-bar" data-percent="90%" role="progressbar" style="width: 90%;">
-                            <span class="sr-only">90% Complete</span>
+                        <div class="progress-bar" data-percent="80%" role="progressbar" style="width: 80%;">
+                            <span class="sr-only">80% Complete</span>
                         </div>
                         <span class="progress-type">Adobe Photoshop</span>
                         <span class="progress-completed">80%</span>
@@ -453,47 +453,47 @@
                   <ul class="skills-list">
                     <li>
                       <div class="progress">
-                        <div class="progress-bar" data-percent="90%" role="progressbar" style="width: 90%;">
-                            <span class="sr-only">90% Complete</span>
+                        <div class="progress-bar" data-percent="85%" role="progressbar" style="width: 85%;">
+                            <span class="sr-only">85% Complete</span>
                         </div>
                         <span class="progress-type">HTML5 / CSS3</span>
-                        <span class="progress-completed">90%</span>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-2" data-percent="90%" role="progressbar" style="width: 90%;">
-                            <span class="sr-only">90% Complete</span>
-                        </div>
-                        <span class="progress-type">LESS / SASS</span>
-                        <span class="progress-completed">90%</span>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-3" data-percent="90%" role="progressbar" style="width: 90%;">
-                            <span class="sr-only">90% Complete</span>
-                        </div>
-                        <span class="progress-type">Wordpress</span>
-                        <span class="progress-completed">90%</span>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="progress">
-                        <div class="progress-bar" data-percent="80%" role="progressbar" style="width: 80%;">
-                            <span class="sr-only">80% Complete</span>
-                        </div>
-                        <span class="progress-type">Jquery</span>
-                        <span class="progress-completed">80%</span>
+                        <span class="progress-completed">85%</span>
                       </div>
                     </li>
                     <li>
                       <div class="progress">
                         <div class="progress-bar progress-bar-2" data-percent="80%" role="progressbar" style="width: 80%;">
-                            <span class="sr-only">30% Complete</span>
+                            <span class="sr-only">80% Complete</span>
+                        </div>
+                        <span class="progress-type">LESS / SASS</span>
+                        <span class="progress-completed">80%</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-3" data-percent="80%" role="progressbar" style="width: 80%;">
+                            <span class="sr-only">80% Complete</span>
+                        </div>
+                        <span class="progress-type">Wordpress</span>
+                        <span class="progress-completed">80%</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar" data-percent="70%" role="progressbar" style="width: 70%;">
+                            <span class="sr-only">70% Complete</span>
+                        </div>
+                        <span class="progress-type">Jquery</span>
+                        <span class="progress-completed">70%</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-2" data-percent="65%" role="progressbar" style="width: 65%;">
+                            <span class="sr-only">65% Complete</span>
                         </div>
                         <span class="progress-type">GIT</span>
-                        <span class="progress-completed">80%</span>
+                        <span class="progress-completed">65%</span>
                       </div>
                     </li>
                     <li>
