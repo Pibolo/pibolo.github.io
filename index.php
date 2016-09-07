@@ -214,7 +214,7 @@
                   <h3 class="section-item-title-1">Conception Web en alternance</h3>
                   <h4 class="graduation-time"><i class="fa fa-university"></i> CESI Ouest - Nantes (44) <span class="graduation-date">Diplôme en Septembre 2016</span></h4>
                   <div class="graduation-description">
-                    <p>Durant deux ans j'ai alterné formation et entreprise (Le Phare, Nantes). Cela m'a énormément fait avancé et m'a conforté dans mon choix de devenir développeur Front-end</p>
+                    <p>Durant deux ans j'ai alterné formation et entreprise (Le Phare, Nantes). Cela m'a énormément fait avancer et m'a conforté dans mon choix de devenir développeur Front-end</p>
                   </div>
                 </div>
               </div>
@@ -244,7 +244,7 @@
                   <h3 class="section-item-title-1">Menuisier / Ebeniste</h3>
                   <h4 class="graduation-time"><i class="fa fa-university"></i> Lycée Savina - Tréguier (22) - <span class="graduation-date">Diplomé en Juin 2005</span></h4>
                   <div class="graduation-description">
-                    <p>Après le collège j'ai suivi un cursus manuel : la menuiserie/agencement en 2 ans, puis, l'ébenisterie en 1 an. Cette ces deux BEP/CAP m'ont permis d'acquérir une logique manuelle. Même si je n'ai pas continué, ce sont aussi ces disciplines professionnelles qui font la richesse et la diversité de mon parcours.</p>
+                    <p>Après le collège j'ai suivi un cursus manuel : la menuiserie/agencement en 2 ans, puis, l'ébenisterie en 1 an. Ces deux BEP/CAP m'ont permis d'acquérir une logique manuelle. Même si je n'ai pas continué, ce sont aussi ces disciplines professionnelles qui font la richesse et la diversité de mon parcours.</p>
                   </div>
                 </div>
               </div>
